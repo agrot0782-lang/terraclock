@@ -87,7 +87,7 @@ async function updateWeather(){
 
     const apiKey = "4fe19cc6b20967371d0edd539c1b83b5";
 
-    const ciudad = "Tultepec,mx";
+    const ciudad = "Lagos de Moreno, jalisco";
 
     const url =
 
