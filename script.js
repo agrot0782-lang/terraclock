@@ -87,7 +87,7 @@ async function updateWeather(){
 
     const apiKey = "4fe19cc6b20967371d0edd539c1b83b5";
 
-    const ciudad = "Lagos de Moreno, jalisco";
+    const ciudad = "EL CAJON";
 
     const url =
 
@@ -103,7 +103,7 @@ document.getElementById("condition").innerHTML =
 data.weather[0].description.toUpperCase();
 
 document.getElementById("city").innerHTML =
-data.name.toUpperCase() + ", MÉXICO";
+data.name.toUpperCase() + ", LAGOS DE MORENO";
 
 document.getElementById("feelsLike").innerHTML =
 Math.round(data.main.feels_like) + "°C";
